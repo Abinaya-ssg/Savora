@@ -12,10 +12,10 @@
         <nav class="navbar">
             <h3>Savora</h3>
         <ul> 
-            <li> <a>Home</a></li>
-            <li> <a>Categories</a></li>
-            <li> <a>Recipes</a></li>
-            <li> <a>Contact</a></li>
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#categories">Categories</a></li>
+            <li> <a href="#recipe">Recipes</a></li>
+            <li> <a href="#contact">Contact</a></li>
         </ul>
         <div class="search-bar">
             <input type="text" placeholder="Search recipes...">
@@ -24,17 +24,21 @@
         </div>
         </nav>
     </header>
-    <br> <br>
-    <section class="hero">
-        <h1>Discover Recipes You'll Love</h1>
-        <p>Explore handpicked dishes, cooking tips, and culinary inspiration for every meal.</p>
-        <br>
-        <button class="b1">Explore Recipes</button>
-        <button class="b2">Get our Mobile App</button>
-        <br> <br>
+    <section class="hero" id="home">
+        <div class="hero-content">
+        <h1 class="heading">Discover Recipes You'll Love</h1>
+        <p class="sub-heading">Explore handpicked dishes, cooking tips, and culinary inspiration for every meal.</p>
+        <div class="hero-buttons">
+            <button class="b1">Explore Recipes</button>
+            <button class="b2">Get our Mobile App</button>
+        </div>
+        </div>
     </section>
-    <section class="categories">
+    <section class="categories" id="categories">
         <h2>Categories</h2>
+        <p class="section-subtitle">
+Browse recipes by category and discover your next favorite meal.
+</p>
         <div class="category-container">
             <div class="bf">
                 <i class="fa-solid fa-bread-slice"></i>
@@ -60,7 +64,7 @@
         
 
     </section>
-    <section class="featured-recipes">
+    <section class="featured-recipes" id="recipe">
         <h1>Featured Recipes</h1>
         <p>From quick weekday meals to special weekend treats, find recipes for every craving.</p>
         <div class="recipe-container">
@@ -164,7 +168,15 @@
 
 
     </section>
-    <footer>
+    <section class="newsletter">
+        <h2>Stay Updated with Savora</h2>
+        <p>Get weekly Recipes, cooking tips and exclusive culinary inspirations delivered straight to your inbox.</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    <footer id="contact">
         <h3>Savora</h3>
         <p>Bringing delicious recipes and culinary inspiration to food lovers around the world.</p>
         <div class="social-handles">
@@ -173,7 +185,7 @@
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
         </div>
-        <div class="contact us">
+        <div class="contact-us">
             <p>Contact-us:</p>
             <div>
             <i class="fa-solid fa-location-dot"></i>
@@ -189,7 +201,7 @@
             </div>
         </div >
         <div class="copyright">
-        <p>&copy; 2024 Savora. All rights reserved.</p>
+        <p>&copy; 2026 Savora. All rights reserved.</p>
         </div>
     </footer>
     
